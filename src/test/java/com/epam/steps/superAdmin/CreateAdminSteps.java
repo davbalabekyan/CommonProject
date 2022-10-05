@@ -63,7 +63,7 @@ public class CreateAdminSteps {
 
     @Then("Check all input fields are empty in create popup")
     public void checkAllInputFieldsAreEmptyInCreatePopup() {
-        createPopup.checkAllInputFieldsAreEmptyInCreatePopup();
+        assertThat(createPopup.checkAllInputFieldsAreEmptyInCreatePopup()).isTrue();
     }
 
     @Then("Check all fields are present in create popup")

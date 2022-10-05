@@ -36,6 +36,10 @@ public class LoginPage extends BasePage {
         return errorMessage.getText();
     }
 
+    public boolean checkAllElementsArePresent() {
+        return uiHelper.checkElementsAreDisplayed(emailInput, passwordInput, loginButton);
+    }
+
     @Override
     protected String pageUrl() {
         return "http://localhost:8082/login";

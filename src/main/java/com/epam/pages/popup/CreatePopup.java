@@ -43,20 +43,20 @@ public class CreatePopup extends CommonPopup {
     }
 
     public boolean checkAllFieldsArePresentInCreatePopup() {
-        return nameInput.isDisplayed()
-                && surnameInput.isDisplayed()
-                && emailInput.isDisplayed()
-                && passwordInput.isDisplayed()
-                && saveButton.isDisplayed()
-                && generatePasswordButton.isDisplayed()
-                && xButton.isDisplayed();
+        return uiHelper.checkElementsAreDisplayed(nameInput,
+                surnameInput,
+                emailInput,
+                passwordInput,
+                saveButton,
+                generatePasswordButton,
+                xButton);
     }
 
     public boolean checkAllInputFieldsAreEmptyInCreatePopup() {
-        return nameInput.getText().isEmpty()
-                && surnameInput.getText().isEmpty()
-                && emailInput.getText().isEmpty()
-                && passwordInput.getDomProperty("value").isEmpty();
+        return uiHelper.checkElementsAreEmpty(nameInput,
+                surnameInput,
+                emailInput,
+                passwordInput);
     }
 
     public boolean checkGeneratedPasswordIsFilled() {
