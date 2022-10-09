@@ -64,14 +64,14 @@ public class CreatePopup extends CommonPopup {
         uiHelper.sendKeys(emailInput, SharedTestData.getExistedEmail());
     }
 
+    public void fillExistedNameAndSurname() {
+        uiHelper.sendKeys(nameInput, SharedTestData.getExistedName());
+        uiHelper.sendKeys(surnameInput, SharedTestData.getExistedSurname());
+    }
+
     public void fillAllFields() {
         fillAllFieldsBesidesEmail();
         fillEmail(System.currentTimeMillis() + "@gmail.com");
-    }
-
-    public void fillAllFieldsBesidesEmail() {
-        fillName("Davit");
-        fillSurname("Balabekyan");
     }
 
     private void clickOnGeneratePasswordButtonInternal() {
@@ -114,9 +114,18 @@ public class CreatePopup extends CommonPopup {
         return generatePasswordButton.isEnabled();
     }
 
+    public void fillAllFieldsBesidesEmail() {
+        fillName(System.currentTimeMillis() + "");
+        fillSurname(System.currentTimeMillis() + "yan");
+    }
+
+    public void fillPassword(String password) {
+        uiHelper.sendKeys(passwordInput, password);
+    }
+
     public boolean checkGeneratedPasswordStructure() {
         return passwordInput.getDomProperty("value")
-                .matches("(?=.*[a-z])(?=.*[A-Z])(?=.*\\\\d)(?=.*[@$#!%*?&])[A-Za-z\\\\d()`~@$!^#*%-_?+=|&]{9,50}");
+                .matches("(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$#!%*?&])[A-Za-z\\d()`~@$!^#*%-_?+=|&]{9,50}");
     }
 
     public boolean checkThePasswordFieldIsDisabled() {

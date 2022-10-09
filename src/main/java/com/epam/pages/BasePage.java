@@ -2,10 +2,13 @@ package com.epam.pages;
 
 import com.epam.core.driver.Driver;
 import com.epam.helpers.UiHelper;
+import com.epam.jdbc.config.DBConnectionProvider;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.sql.Connection;
 
 public abstract class BasePage {
 

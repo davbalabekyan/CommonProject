@@ -50,4 +50,14 @@ public class SharedTestData {
     public static String getExistedEmail() {
         return "petrosyan@gmail.com";
     }
+
+    public static String getExistedName() {
+        SharedTestData.setNameField("Petros");
+        return "Petros";
+    }
+
+    public static String getExistedSurname() {
+        SharedTestData.setSurnameField("Petrosyan");
+        return "Petrosyan";
+    }
 }
