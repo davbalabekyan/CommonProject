@@ -19,9 +19,11 @@ public class CommonPopup extends BasePage {
 
     public void clickOnSaveButton() {
         uiHelper.clickOnWebElement(saveButton);
+        logger.info("Save button was clicked in create popup");
     }
 
     public void clickOnXButton() {
         uiHelper.clickOnWebElement(xButton);
+        logger.info("xButton button was clicked in create popup");
     }
 }

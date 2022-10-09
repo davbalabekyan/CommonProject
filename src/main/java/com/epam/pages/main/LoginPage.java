@@ -18,14 +18,17 @@ public class LoginPage extends BasePage {
 
     public void fillEmail(String email) {
         uiHelper.sendKeys(emailInput, email);
+        logger.info("Email was filled with {}", email);
     }
 
     public void fillPassword(String password) {
         uiHelper.sendKeys(passwordInput, password);
+        logger.info("Password was filled with {}", password);
     }
 
     public void clickOnLoginButton() {
         uiHelper.clickOnWebElement(loginButton);
+        logger.info("Login button was clicked");
     }
 
     public void enterLastGeneratedPassword() {

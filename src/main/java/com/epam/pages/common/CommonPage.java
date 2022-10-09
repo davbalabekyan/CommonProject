@@ -33,6 +33,7 @@ public abstract class CommonPage extends BasePage {
 
     public void clickOnCreateButton() {
         uiHelper.clickOnWebElement(createButton);
+        logger.info("Create button was clicked");
     }
 
     public boolean checkCreateButtonIsPresent() {
