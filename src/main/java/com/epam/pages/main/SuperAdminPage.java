@@ -13,7 +13,11 @@ public class SuperAdminPage extends CommonPage {
         return adminsSection.isDisplayed();
     }
 
-    public boolean popupIsClosed() {
-        return adminsSection.isDisplayed();
+    public boolean checkAllElementsArePresent() {
+        return uiHelper.checkElementsAreDisplayed(list,
+                roleName,
+                adminsSection,
+                settingsSection,
+                createButton);
     }
 }

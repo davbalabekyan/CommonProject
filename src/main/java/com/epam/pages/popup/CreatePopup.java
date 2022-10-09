@@ -2,7 +2,6 @@ package com.epam.pages.popup;
 
 import com.epam.helpers.SharedTestData;
 import com.epam.pages.common.CommonPopup;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -21,28 +20,76 @@ public class CreatePopup extends CommonPopup {
     @FindBy(id = "btn")
     protected WebElement generatePasswordButton;
     @FindBy(xpath = "//*[@id='email']/following-sibling::div/p")
-    protected WebElement emailInvalidErrorMessage;
+    protected WebElement emailInvalidAndExistedErrorMessage;
     @FindBy(xpath = "//input/following-sibling::div[@class='error']")
-    protected List<WebElement> blankInputsErrorMessages;
+    protected List<WebElement> errorMessagesOfBlankInputFields;
+    @FindBy(xpath = "//input[not(@id='password')]/following-sibling::div[@class='error']")
+    protected List<WebElement> errorMessagesOfMoreSymbols;
+    @FindBy(id = "popup-container")
+    protected WebElement popupWindow;
+    private String password;
 
     public void fillName(String name) {
         uiHelper.sendKeys(nameInput, name);
+        SharedTestData.setNameField(name);
+    }
+
+    public void fillNameWithMoreSymbols() {
+        uiHelper.sendKeys(nameInput, SharedTestData.getMoreSymbols());
     }
 
     public void fillSurname(String surname) {
         uiHelper.sendKeys(surnameInput, surname);
+        SharedTestData.setSurnameField(surname);
+    }
+
+    public void fillSurnameWithMoreSymbols() {
+        uiHelper.sendKeys(surnameInput, SharedTestData.getMoreSymbols());
     }
 
     public void fillEmail(String email) {
         uiHelper.sendKeys(emailInput, email);
+        SharedTestData.setLastGeneratedEmail(email);
+    }
+
+    public void fillEmailWithMoreSymbols() {
+        uiHelper.sendKeys(emailInput, SharedTestData.getMoreSymbols());
+    }
+
+    public void fillInvalidEmail() {
+        uiHelper.sendKeys(emailInput, SharedTestData.getInvalidEmail());
+    }
+
+    public void fillExistedEmail() {
+        uiHelper.sendKeys(emailInput, SharedTestData.getExistedEmail());
+    }
+
+    public void fillAllFields() {
+        fillAllFieldsBesidesEmail();
+        fillEmail(System.currentTimeMillis() + "@gmail.com");
+    }
+
+    public void fillAllFieldsBesidesEmail() {
+        fillName("Davit");
+        fillSurname("Balabekyan");
+    }
+
+    private void clickOnGeneratePasswordButtonInternal() {
+        uiHelper.clickOnWebElement(generatePasswordButton);
     }
 
     public void clickOnGeneratePasswordButton() {
-        uiHelper.clickOnWebElement(generatePasswordButton);
+        clickOnGeneratePasswordButtonInternal();
         SharedTestData.setLastGeneratedPassword(passwordInput.getDomProperty("value"));
     }
 
-    public boolean checkAllFieldsArePresentInCreatePopup() {
+    public void doubleClickOnGeneratePasswordButton() {
+        clickOnGeneratePasswordButtonInternal();
+        password = passwordInput.getDomProperty("value");
+        clickOnGeneratePasswordButton();
+    }
+
+    public boolean checkAllFieldsArePresent() {
         return uiHelper.checkElementsAreDisplayed(nameInput,
                 surnameInput,
                 emailInput,
@@ -52,7 +99,7 @@ public class CreatePopup extends CommonPopup {
                 xButton);
     }
 
-    public boolean checkAllInputFieldsAreEmptyInCreatePopup() {
+    public boolean checkAllInputFieldsAreEmpty() {
         return uiHelper.checkElementsAreEmpty(nameInput,
                 surnameInput,
                 emailInput,
@@ -69,26 +116,40 @@ public class CreatePopup extends CommonPopup {
 
     public boolean checkGeneratedPasswordStructure() {
         return passwordInput.getDomProperty("value")
-                .matches("nothing");
+                .matches("(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$#!%*?&])[A-Za-z\\d@$!#%*?&]{9,50}");
     }
 
     public boolean checkThePasswordFieldIsDisabled() {
         return Boolean.parseBoolean(passwordInput.getAttribute("readonly"));
     }
 
-    public String getErrorMessageByInputFieldName(String inputFieldName) {
-        String xPath = String.format("//input[@id='%s']/following-sibling::*[@class='error']", inputFieldName);
-        return driver.findElement(By.xpath(xPath)).getText();
+    public boolean passwordIsChanged() {
+        return !password.equals(SharedTestData.getLastGeneratedPassword());
     }
 
     public String getInvalidEmailErrorMessage() {
-        return emailInvalidErrorMessage.getText();
+        return emailInvalidAndExistedErrorMessage.getText();
     }
 
     public boolean checkErrorMessagesOfBlankInputFields() {
-        return blankInputsErrorMessages
+        return errorMessagesOfBlankInputFields
                 .stream()
                 .allMatch(errMessage -> errMessage.getText()
-                        .equalsIgnoreCase("Please, fill the required fields"));
+                        .equals("Please, fill the required fields"));
+    }
+
+    public boolean checkErrorMessagesOfMoreSymbolsFilledInputFields() {
+        return errorMessagesOfMoreSymbols
+                .stream()
+                .allMatch(errMessage -> errMessage.getText()
+                        .equals("Symbols cant be more than 50"));
+    }
+
+    public String getErrorMessageOfExistedEmail() {
+        return emailInvalidAndExistedErrorMessage.getText();
+    }
+
+    public boolean popupIsClosed() {
+        return !popupWindow.isDisplayed();
     }
 }
