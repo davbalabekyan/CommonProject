@@ -16,11 +16,11 @@ public class LoginPage extends BasePage {
     @FindBy(className = "errorMsg")
     private WebElement errorMessage;
 
-    public void enterEmail(String email) {
+    public void fillEmail(String email) {
         uiHelper.sendKeys(emailInput, email);
     }
 
-    public void enterPassword(String password) {
+    public void fillPassword(String password) {
         uiHelper.sendKeys(passwordInput, password);
     }
 
@@ -30,6 +30,10 @@ public class LoginPage extends BasePage {
 
     public void enterLastGeneratedPassword() {
         uiHelper.sendKeys(passwordInput, SharedTestData.getLastGeneratedPassword());
+    }
+
+    public void enterLastGeneratedEmail() {
+        uiHelper.sendKeys(emailInput, SharedTestData.getLastGeneratedEmail());
     }
 
     public String getErrorMessage() {
