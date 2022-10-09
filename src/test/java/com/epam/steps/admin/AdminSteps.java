@@ -24,7 +24,7 @@ public class AdminSteps {
     }
 
     @When("Select {} section")
-    public void selectTeachersSection(String section) {
+    public void selectSection(String section) {
         adminPage.selectSection(section);
     }
 
@@ -60,7 +60,7 @@ public class AdminSteps {
     }
 
     @And("Fill in existed name, surname")
-    public void fillInNameSurnameAndAnExistedEmail() {
+    public void fillInNameSurname() {
         createPopup.fillExistedNameAndSurname();
     }
 
