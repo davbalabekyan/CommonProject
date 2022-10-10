@@ -7,8 +7,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class AdminPage extends CommonPage {
-
-   private final AdminService adminService = new AdminService();
     public boolean checkAllElementsArePresent() {
         return uiHelper.checkElementsAreDisplayed(
                 list,

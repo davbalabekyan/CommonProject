@@ -30,7 +30,7 @@ Feature: Admin page/ Teacher section functionality
   Scenario: Check functionality to regenerate password
     And Click on 'Generate password' button
     And Get value of generated password
-    And Double click on 'Generate password' button
+    And Click on 'Generate password' button
     Then See that generated password has been changed
     And Generate button is active
 

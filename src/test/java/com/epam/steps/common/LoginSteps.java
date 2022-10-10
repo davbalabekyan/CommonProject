@@ -13,7 +13,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.assertj.core.api.Assertions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -66,7 +65,7 @@ public class LoginSteps extends BaseSteps {
 
     @Then("See error message")
     public void seeErrorMessage() {
-        Assertions.assertThat(loginPage.getErrorMessage()).isEqualTo("Incorrect email and/or password");
+       assertThat(loginPage.getErrorMessage()).isEqualTo("Incorrect email and/or password");
     }
 
     @And("Fill in all required fields")
@@ -81,8 +80,8 @@ public class LoginSteps extends BaseSteps {
         loginPage.enterLastGeneratedEmail();
         loginPage.enterLastGeneratedPassword();
         loginPage.clickOnLoginButton();
-        Assertions.assertThat(createPopup.passwordIsChanged()).isTrue();
-        Assertions.assertThat(adminPage.getNameAndSurname()).contains(SharedTestData.getNameField());
+        assertThat(createPopup.passwordIsChanged()).isTrue();
+        assertThat(adminPage.getNameAndSurname()).contains(SharedTestData.getNameField());
     }
 
     @AfterAll

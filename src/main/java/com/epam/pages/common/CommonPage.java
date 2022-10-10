@@ -43,13 +43,12 @@ public abstract class CommonPage extends BasePage {
     }
 
     public String getNameOfLastCreatedUser() {
-        return listItems.get(listItems.size()-1).getText().split(" ")[0];
+        return listItems.get(listItems.size() - 1).getText().split(" ")[0];
     }
+
     public String getSurnameOfLastCreatedUser() {
-        return listItems.get(listItems.size()-1).getText().split(" ")[1];
+        return listItems.get(listItems.size() - 1).getText().split(" ")[1];
     }
-
-
 
     public boolean checkListIsEmpty() {
         return list.size() == 1;

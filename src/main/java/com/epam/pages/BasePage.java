@@ -2,18 +2,17 @@ package com.epam.pages;
 
 import com.epam.core.driver.Driver;
 import com.epam.helpers.UiHelper;
-import com.epam.jdbc.config.DBConnectionProvider;
+import com.epam.jdbc.service.AdminService;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.sql.Connection;
-
 public abstract class BasePage {
 
     protected final Logger logger = LoggerFactory.getLogger(this.getClass());
     protected final WebDriver driver;
+    protected AdminService adminService = new AdminService();
     protected final UiHelper uiHelper = new UiHelper();
 
     public BasePage() {

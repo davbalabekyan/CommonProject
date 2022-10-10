@@ -4,7 +4,6 @@ import com.epam.pages.main.LoginPage;
 import com.epam.pages.main.SuperAdminPage;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Then;
-import org.assertj.core.api.Assertions;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -29,10 +28,5 @@ public class UICheckSteps {
     public void checkAllElementsArePresentInLoginPage() {
         assertThat(loginPage.checkAllElementsArePresent())
                 .isTrue();
-    }
-
-    @Then("The user sees email, password and login button are present")
-    public void theUserSeesEmailPasswordAndLoginButtonArePresent() {
-        Assertions.assertThat(loginPage.checkAllElementsArePresent()).isTrue();
     }
 }

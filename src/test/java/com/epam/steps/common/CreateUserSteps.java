@@ -21,18 +21,13 @@ public class CreateUserSteps {
         createPopup = new CreatePopup();
     }
 
-    @Given("Fill in name fill more than 50 symbols")
-    public void fillInNameFillMoreThanSymbols() {
-        createPopup.fillNameWithMoreSymbols();
-    }
-
     @Given("Fill invalid email")
     public void fillInvalidEmail() {
         createPopup.fillInvalidEmail();
     }
 
-    @Given("Fill all fields but email")
-    public void fillFieldsButEmail() {
+    @Given("Fill all fields besides email")
+    public void fillFieldsBesidesEmail() {
         createPopup.fillAllFieldsBesidesEmail();
     }
 
@@ -82,14 +77,21 @@ public class CreateUserSteps {
         createPopup.doubleClickOnGeneratePasswordButton();
     }
 
-    @And("Fill in surname fill more than 50 sybmols")
-    public void fillInSurnameFillMoreThanSybmols() {
+    @And("Fill in input fields more than 50 symbols")
+    public void fillInInputFieldsMoreThanSymbols() {
+        createPopup.fillNameWithMoreSymbols();
         createPopup.fillSurnameWithMoreSymbols();
+        createPopup.fillEmailWithMoreSymbols();
     }
 
-    @And("Fill in email fill more than 50 sybmols")
-    public void fillInEmailFillMoreThanSybmols() {
-        createPopup.fillEmailWithMoreSymbols();
+    @And("Fill existed name")
+    public void fillExistedName() {
+        createPopup.fillExistedName();
+    }
+
+    @And("Fill existed surname")
+    public void fillExistedSurname() {
+        createPopup.fillExistedSurname();
     }
 
     @Then("Password is changed")
@@ -138,8 +140,8 @@ public class CreateUserSteps {
                 .isTrue();
     }
 
-    @Then("Check the structure of generated password")
-    public void checkTheStructureOfGeneratedPassword() {
+    @And("Password structure comply with the given requirements")
+    public void passwordStructureComplyWithTheGivenRequirements() {
         assertThat(createPopup.checkGeneratedPasswordStructure())
                 .isTrue();
     }

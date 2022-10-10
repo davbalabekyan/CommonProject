@@ -2,6 +2,7 @@ package com.epam.pages.popup;
 
 import com.epam.helpers.SharedTestData;
 import com.epam.pages.common.CommonPopup;
+import com.epam.pages.main.SuperAdminPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -64,9 +65,16 @@ public class CreatePopup extends CommonPopup {
         uiHelper.sendKeys(emailInput, SharedTestData.getExistedEmail());
     }
 
-    public void fillExistedNameAndSurname() {
-        uiHelper.sendKeys(nameInput, SharedTestData.getExistedName());
-        uiHelper.sendKeys(surnameInput, SharedTestData.getExistedSurname());
+    public void fillExistedName() {
+        String name = new SuperAdminPage().getNameOfLastCreatedUser();
+        uiHelper.sendKeys(nameInput, name);
+        SharedTestData.setNameField(name);
+    }
+
+    public void fillExistedSurname() {
+        String surname = new SuperAdminPage().getSurnameOfLastCreatedUser();
+        uiHelper.sendKeys(surnameInput, surname);
+        SharedTestData.setSurnameField(surname);
     }
 
     public void fillAllFields() {
@@ -81,6 +89,7 @@ public class CreatePopup extends CommonPopup {
     public void clickOnGeneratePasswordButton() {
         clickOnGeneratePasswordButtonInternal();
         SharedTestData.setLastGeneratedPassword(passwordInput.getDomProperty("value"));
+        logger.info("Generated password is {} ", SharedTestData.getLastGeneratedPassword());
     }
 
     public void doubleClickOnGeneratePasswordButton() {
@@ -115,8 +124,8 @@ public class CreatePopup extends CommonPopup {
     }
 
     public void fillAllFieldsBesidesEmail() {
-        fillName(System.currentTimeMillis() + "");
-        fillSurname(System.currentTimeMillis() + "yan");
+        fillName("David");
+        fillSurname("Balabekyan");
     }
 
     public void fillPassword(String password) {

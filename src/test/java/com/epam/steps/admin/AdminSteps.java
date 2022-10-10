@@ -6,10 +6,7 @@ import com.epam.pages.popup.CreatePopup;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.assertj.core.api.Assertions;
-import org.openqa.selenium.WebElement;
 
-import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -61,7 +58,8 @@ public class AdminSteps {
 
     @And("Fill in existed name, surname")
     public void fillInNameSurname() {
-        createPopup.fillExistedNameAndSurname();
+        createPopup.fillExistedName();
+        createPopup.fillExistedSurname();
     }
 
     @Then("Fill in password field no interaction happens because password field is read only")
