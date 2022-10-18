@@ -21,12 +21,14 @@ public class UICheckSteps {
     @Then("Check all elements are present in super admin page")
     public void checkAllElementsArePresentInSuperAdminPage() {
         assertThat(superAdminPage.checkAllElementsArePresent())
+                .withFailMessage("All elements are not present in super admin page.")
                 .isTrue();
     }
 
     @Then("Check all elements are present in login page")
     public void checkAllElementsArePresentInLoginPage() {
         assertThat(loginPage.checkAllElementsArePresent())
+                .withFailMessage("All elements are present in login page")
                 .isTrue();
     }
 }

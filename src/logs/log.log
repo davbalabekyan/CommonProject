@@ -1,0 +1,1307 @@
+2022-10-18 11:30:59,421 INFO io.github.bonigarcia.wdm.WebDriverManager [main] Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-18 11:30:59,457 INFO io.github.bonigarcia.wdm.WebDriverManager [main] Exporting webdriver.chrome.driver as C:\Users\Heghine_Khachatryan\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-18 11:31:02,535 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:02,861 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:02,868 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:02,938 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:02,944 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:03,063 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:03,146 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:03,167 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:03,875 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:03,881 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:03,915 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:04,147 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:04,176 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:04,291 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:04,384 INFO com.epam.pages.popup.CreatePopup [main] Check password field is filled
+2022-10-18 11:31:04,585 INFO com.epam.pages.popup.CreatePopup [main] Check generated password structure
+2022-10-18 11:31:04,641 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:04,643 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:04,644 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:04,693 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:04,725 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:04,802 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:04,879 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:04,897 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:05,294 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:05,295 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:05,336 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:06,830 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:06,856 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:06,987 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:07,089 INFO com.epam.pages.popup.CreatePopup [main] Check password field is filled
+2022-10-18 11:31:07,107 INFO com.epam.pages.popup.CreatePopup [main] Check generated password structure
+2022-10-18 11:31:07,162 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:07,164 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:07,167 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:07,216 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:07,218 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:07,325 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:07,451 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:07,480 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:07,906 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:07,909 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:07,951 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:08,060 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:08,093 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:08,237 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:08,345 INFO com.epam.pages.popup.CreatePopup [main] Check password field is filled
+2022-10-18 11:31:08,363 INFO com.epam.pages.popup.CreatePopup [main] Check generated password structure
+2022-10-18 11:31:08,430 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:08,432 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:08,434 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:08,482 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:08,484 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:08,641 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:08,781 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:08,819 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:09,241 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:09,243 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:09,278 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:09,544 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:09,581 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:09,728 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:09,923 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:10,024 INFO com.epam.pages.popup.CreatePopup [main] Check password is changed after generating a new password
+2022-10-18 11:31:10,041 INFO com.epam.pages.popup.CreatePopup [main] Check 'Generate password' button is active
+2022-10-18 11:31:10,088 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:10,090 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:10,092 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:10,138 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:10,140 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:10,277 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:10,416 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:10,452 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:10,866 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:10,868 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:10,900 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:11,143 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:11,183 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:11,381 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:11,587 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:11,694 INFO com.epam.pages.popup.CreatePopup [main] Check password is changed after generating a new password
+2022-10-18 11:31:11,717 INFO com.epam.pages.popup.CreatePopup [main] Check 'Generate password' button is active
+2022-10-18 11:31:11,828 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:11,830 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:11,833 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:11,870 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:11,872 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:11,978 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:12,096 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:12,125 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:12,516 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:12,517 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:12,551 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:12,654 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:12,688 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:12,836 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:13,003 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:13,103 INFO com.epam.pages.popup.CreatePopup [main] Check password is changed after generating a new password
+2022-10-18 11:31:13,125 INFO com.epam.pages.popup.CreatePopup [main] Check 'Generate password' button is active
+2022-10-18 11:31:13,176 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:13,178 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:13,179 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:13,226 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:13,227 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:13,348 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:13,459 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:13,486 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:13,908 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:13,909 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:13,945 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:14,207 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:14,238 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:14,333 INFO com.epam.pages.popup.CreatePopup [main] Check the password field is readonly
+2022-10-18 11:31:14,388 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:14,389 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:14,390 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:14,429 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:14,431 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:14,536 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:14,631 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:14,651 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:14,982 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:14,983 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:15,013 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:15,217 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:15,247 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:15,354 INFO com.epam.pages.popup.CreatePopup [main] Check the password field is readonly
+2022-10-18 11:31:15,416 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:15,417 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:15,418 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:15,472 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:15,475 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:15,592 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:15,703 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:15,731 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:16,147 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:16,148 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:16,181 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:16,286 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:16,318 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:16,427 INFO com.epam.pages.popup.CreatePopup [main] Check the password field is readonly
+2022-10-18 11:31:16,488 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:16,489 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:16,490 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:16,541 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:16,543 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:16,655 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:16,767 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:16,795 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:17,193 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:17,195 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:17,231 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:17,520 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:17,555 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:17,699 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:17,802 INFO com.epam.pages.popup.CreatePopup [main] Check password field is filled
+2022-10-18 11:31:17,831 INFO com.epam.pages.popup.CreatePopup [main] Check generated password structure
+2022-10-18 11:31:17,862 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:17,863 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:17,864 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:17,917 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:17,918 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:18,040 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:18,149 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:18,176 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:18,591 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:18,592 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:18,631 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:18,884 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:18,914 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:19,053 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:19,163 INFO com.epam.pages.popup.CreatePopup [main] Check password field is filled
+2022-10-18 11:31:19,184 INFO com.epam.pages.popup.CreatePopup [main] Check generated password structure
+2022-10-18 11:31:19,218 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:19,220 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:19,220 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:19,272 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:19,274 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:19,393 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:19,503 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:19,529 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:19,905 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:19,906 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:19,940 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:20,065 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:20,100 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:20,265 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:20,369 INFO com.epam.pages.popup.CreatePopup [main] Check password field is filled
+2022-10-18 11:31:20,386 INFO com.epam.pages.popup.CreatePopup [main] Check generated password structure
+2022-10-18 11:31:20,420 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:20,421 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:20,421 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:20,463 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:20,464 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:20,567 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:20,671 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:20,697 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:21,081 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:21,082 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:21,113 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:21,408 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:21,444 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:21,554 INFO com.epam.pages.popup.CreatePopup [main] Fill email !!invalid@gmail.com
+2022-10-18 11:31:21,675 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:21,708 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:22,260 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:22,319 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:22,321 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:22,321 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:22,356 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:22,357 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:22,478 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:22,595 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:22,625 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:23,059 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:23,060 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:23,094 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:23,325 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:23,356 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:23,463 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid{@gmail.com
+2022-10-18 11:31:23,581 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:23,609 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:24,039 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:24,082 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:24,083 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:24,084 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:24,117 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:24,118 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:24,229 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:24,337 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:24,364 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:24,769 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:24,771 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:24,803 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:24,919 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:24,953 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:25,071 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalidgmail.com
+2022-10-18 11:31:25,190 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:25,218 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:25,615 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:25,699 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:25,715 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:25,721 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:25,793 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:25,807 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:25,929 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:26,042 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:26,069 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:26,465 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:26,473 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:26,502 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:26,794 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:26,827 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:26,925 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gmailcom
+2022-10-18 11:31:27,038 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:27,066 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:27,593 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:27,664 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:27,665 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:27,666 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:27,716 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:27,717 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:27,821 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:27,929 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:27,956 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:28,382 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:28,384 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:28,416 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:28,658 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:28,688 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:28,799 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gmail.c1om
+2022-10-18 11:31:28,914 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:28,942 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:29,390 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:29,432 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:29,433 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:29,433 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:29,474 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:29,475 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:29,607 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:29,720 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:29,747 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:30,163 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:30,164 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:30,198 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:30,325 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:30,360 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:30,470 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gmail.COM
+2022-10-18 11:31:30,592 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:30,625 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:31,214 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:31,261 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:31,262 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:31,263 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:31,310 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:31,311 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:31,427 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:31,541 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:31,566 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:31,958 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:31,959 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:31,989 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:32,257 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:32,289 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:32,391 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gmail-.com
+2022-10-18 11:31:32,512 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:32,542 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:33,041 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:33,090 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:33,091 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:33,092 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:33,128 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:33,129 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:33,253 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:33,372 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:33,402 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:33,807 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:33,807 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:33,840 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:34,095 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:34,128 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:34,232 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gm--ail.com
+2022-10-18 11:31:34,363 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:34,391 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:34,890 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:34,931 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:34,932 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:34,933 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:34,965 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:34,965 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:35,062 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:35,164 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:35,192 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:35,612 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:35,613 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:35,650 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:35,767 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:35,799 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:35,910 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gm.ail.com
+2022-10-18 11:31:36,016 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:36,041 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:36,414 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:36,454 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:36,455 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:36,456 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:36,486 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:36,487 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:36,606 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:36,714 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:36,741 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:37,159 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:37,160 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:37,200 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:37,442 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:37,474 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:37,570 INFO com.epam.pages.popup.CreatePopup [main] Fill email i@gmail.com
+2022-10-18 11:31:37,680 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:37,706 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:38,291 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:31:38,333 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:38,335 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:38,335 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:38,377 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:38,379 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:38,491 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:38,599 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:38,627 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:39,030 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:39,031 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:39,065 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:39,324 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:39,354 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:39,452 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:39,476 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:39,962 INFO com.epam.pages.popup.CreatePopup [main] Check error messages of blank input fields
+2022-10-18 11:31:40,068 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:40,070 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:40,071 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:40,118 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:40,120 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:40,238 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:40,350 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:40,375 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:40,781 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:40,781 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:40,810 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:41,013 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:41,035 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:41,130 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:41,157 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:41,752 INFO com.epam.pages.popup.CreatePopup [main] Check error messages of blank input fields
+2022-10-18 11:31:41,893 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:41,894 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:41,895 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:41,924 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:41,925 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:42,045 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:42,157 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:42,185 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:42,626 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:42,627 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:42,665 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:42,791 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:42,829 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:42,942 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:42,969 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:43,610 INFO com.epam.pages.popup.CreatePopup [main] Check error messages of blank input fields
+2022-10-18 11:31:43,709 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:43,710 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:43,710 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:43,764 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:43,766 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:43,896 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:44,029 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:44,059 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:44,458 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:44,459 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:31:44,493 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:31:44,744 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:44,775 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:44,873 INFO com.epam.pages.popup.CreatePopup [main] 50 symbols in name field are qEecC0ORNHpFF7JH0rOyq7NsPHye3Ql5EaXkFuBXCzxq7367tSy
+2022-10-18 11:31:45,210 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:45,236 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:45,725 INFO com.epam.pages.popup.CreatePopup [main] Check error messages for inputting more than 50 symbols
+2022-10-18 11:31:45,801 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:45,802 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:45,803 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:45,832 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:45,833 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:46,043 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:46,137 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:46,160 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:46,496 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:46,497 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:46,523 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:46,759 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:46,785 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:46,889 INFO com.epam.pages.popup.CreatePopup [main] 50 symbols in name field are uC8BerATYR15BUoiug0AE5gxwjfg6AYMKxF2jUgI80KKTLM3b64
+2022-10-18 11:31:47,366 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:47,387 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:47,889 INFO com.epam.pages.popup.CreatePopup [main] Check error messages for inputting more than 50 symbols
+2022-10-18 11:31:47,976 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:47,977 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:47,978 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:48,009 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:48,010 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:48,149 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:48,272 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:48,296 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:48,734 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:48,735 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:31:48,767 INFO com.epam.helpers.UiHelper [main] Click on Parents button
+2022-10-18 11:31:48,891 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:48,923 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:49,037 INFO com.epam.pages.popup.CreatePopup [main] 50 symbols in name field are XKF59mTlWWPxV2FO72sReiMLKRMsDbojxUpqJpIjuXSTpNVfoLS
+2022-10-18 11:31:49,399 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:49,429 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:50,143 INFO com.epam.pages.popup.CreatePopup [main] Check error messages for inputting more than 50 symbols
+2022-10-18 11:31:50,249 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:50,251 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:50,251 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:50,303 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:50,305 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:50,429 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:50,536 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:50,562 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:50,989 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:50,990 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:51,023 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:51,288 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:51,317 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:51,423 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:51,654 INFO com.epam.pages.popup.CreatePopup [main] Fill email 3WoAgs8@gmail.com
+2022-10-18 11:31:51,800 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:51,898 INFO com.epam.pages.popup.StudentsPopup [main] Fill blood group, gender.
+2022-10-18 11:31:51,899 INFO com.epam.pages.popup.StudentsPopup [main] Fill address - Armenia, Shirak, Gyumri, Shirakatsi, 104
+2022-10-18 11:31:52,044 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:52,168 INFO com.epam.pages.popup.StudentsPopup [main] Fill birth day - 9/7/1996
+2022-10-18 11:31:52,168 INFO com.epam.pages.popup.StudentsPopup [main] User is able to select dates between interval 1900 and 3 years before moment of selectionselected year is - 1996
+2022-10-18 11:31:52,547 INFO com.epam.pages.popup.StudentsPopup [main] Click on field bloodGroup and select value B-
+2022-10-18 11:31:52,740 INFO com.epam.pages.popup.StudentsPopup [main] Click on field gender and select value Female
+2022-10-18 11:31:52,947 INFO com.epam.pages.popup.CreatePopup [main] Click on X button button
+2022-10-18 11:31:52,974 INFO com.epam.helpers.UiHelper [main] Click on × button
+2022-10-18 11:31:53,247 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:53,273 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:53,365 INFO com.epam.pages.popup.StudentsPopup [main] Check all fields are empty in students section create popup.
+2022-10-18 11:31:53,365 INFO com.epam.pages.popup.StudentsPopup [main] Check fields name, surname, email, password are displayed in create popup
+2022-10-18 11:31:53,589 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:53,591 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:53,591 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:53,630 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:53,631 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:53,744 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:53,858 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:53,885 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:54,324 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:54,324 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:54,356 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:54,594 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:54,630 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:54,751 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:54,977 INFO com.epam.pages.popup.CreatePopup [main] Fill email Zbjo20Q@gmail.com
+2022-10-18 11:31:55,119 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:55,228 INFO com.epam.pages.popup.StudentsPopup [main] Fill blood group, gender.
+2022-10-18 11:31:55,228 INFO com.epam.pages.popup.StudentsPopup [main] Fill address - Armenia, Shirak, Gyumri, Shirakatsi, 104
+2022-10-18 11:31:55,374 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:55,493 INFO com.epam.pages.popup.StudentsPopup [main] Fill birth day - 9/7/1996
+2022-10-18 11:31:55,493 INFO com.epam.pages.popup.StudentsPopup [main] User is able to select dates between interval 1900 and 3 years before moment of selectionselected year is - 1996
+2022-10-18 11:31:55,867 INFO com.epam.pages.popup.StudentsPopup [main] Click on field bloodGroup and select value B-
+2022-10-18 11:31:56,083 INFO com.epam.pages.popup.StudentsPopup [main] Click on field gender and select value Female
+2022-10-18 11:31:56,370 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:31:56,396 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:31:57,110 INFO com.epam.pages.popup.CreatePopup [main] Popup is closed
+2022-10-18 11:31:57,148 INFO com.epam.pages.main.AdminPage [main] Check new user is displayed
+2022-10-18 11:31:57,198 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Davit
+2022-10-18 11:31:57,237 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:31:57,251 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:57,251 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:57,252 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:31:57,305 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:57,307 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:31:57,421 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:31:57,534 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:31:57,559 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:57,977 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:57,978 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:31:58,012 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:31:58,247 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:31:58,273 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:31:58,375 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:58,422 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Davit
+2022-10-18 11:31:58,568 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:31:58,667 INFO com.epam.pages.popup.StudentsPopup [main] Fill blood group, gender.
+2022-10-18 11:31:58,667 INFO com.epam.pages.popup.StudentsPopup [main] Fill address - Armenia, Shirak, Gyumri, Shirakatsi, 104
+2022-10-18 11:31:58,817 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:31:58,929 INFO com.epam.pages.popup.StudentsPopup [main] Fill birth day - 9/7/1996
+2022-10-18 11:31:58,929 INFO com.epam.pages.popup.StudentsPopup [main] User is able to select dates between interval 1900 and 3 years before moment of selectionselected year is - 1996
+2022-10-18 11:31:59,293 INFO com.epam.pages.popup.StudentsPopup [main] Click on field bloodGroup and select value B-
+2022-10-18 11:31:59,474 INFO com.epam.pages.popup.StudentsPopup [main] Click on field gender and select value Female
+2022-10-18 11:31:59,656 INFO com.epam.pages.popup.CreatePopup [main] Fill non-existed email bZkSh3J@gmail.com
+2022-10-18 11:31:59,657 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:31:59,660 INFO com.epam.pages.popup.CreatePopup [main] Fill email bZkSh3J@gmail.com
+2022-10-18 11:31:59,873 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:31:59,976 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:00,006 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:00,664 INFO com.epam.pages.main.AdminPage [main] Check new user is displayed
+2022-10-18 11:32:00,714 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Davit
+2022-10-18 11:32:00,755 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:32:00,777 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:00,778 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:00,779 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:00,819 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:00,819 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:00,936 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:01,045 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:01,071 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:01,492 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:01,493 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:01,525 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:01,760 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:01,790 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:01,898 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:01,945 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Davit
+2022-10-18 11:32:02,089 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:32:02,186 INFO com.epam.pages.popup.StudentsPopup [main] Fill blood group, gender.
+2022-10-18 11:32:02,186 INFO com.epam.pages.popup.StudentsPopup [main] Fill address - Armenia, Shirak, Gyumri, Shirakatsi, 104
+2022-10-18 11:32:02,332 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:02,444 INFO com.epam.pages.popup.StudentsPopup [main] Fill birth day - 9/7/1996
+2022-10-18 11:32:02,444 INFO com.epam.pages.popup.StudentsPopup [main] User is able to select dates between interval 1900 and 3 years before moment of selectionselected year is - 1996
+2022-10-18 11:32:02,811 INFO com.epam.pages.popup.StudentsPopup [main] Click on field bloodGroup and select value B-
+2022-10-18 11:32:03,011 INFO com.epam.pages.popup.StudentsPopup [main] Click on field gender and select value Female
+2022-10-18 11:32:03,328 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:03,350 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:03,958 INFO com.epam.pages.popup.CreatePopup [main] Get error message of existed email
+2022-10-18 11:32:04,003 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:04,004 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:04,004 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:04,028 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:04,029 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:04,144 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:04,252 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:04,276 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:04,678 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:04,679 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:04,709 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:04,947 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:04,975 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:05,076 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:05,077 INFO com.epam.pages.popup.StudentsPopup [main] Check calendar is opened.
+2022-10-18 11:32:05,105 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:05,258 INFO com.epam.pages.popup.StudentsPopup [main] User is able to select dates between interval 1900 and 3 years before moment of selection
+2022-10-18 11:32:08,141 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:08,142 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:08,143 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:08,191 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:08,192 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:08,308 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:08,414 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:08,442 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:08,828 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:08,829 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:08,861 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:09,084 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:09,112 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:09,208 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:09,210 INFO com.epam.pages.popup.StudentsPopup [main] Click on field linkedClass and select value 1A
+2022-10-18 11:32:09,543 INFO com.epam.pages.popup.StudentsPopup [main] Value of selected 'linkedClass' field is -                         Class
+                        1A
+                    
+2022-10-18 11:32:09,554 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:09,555 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:09,555 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:09,603 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:09,605 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:09,715 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:09,812 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:09,841 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:10,249 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:10,249 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:10,281 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:10,515 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:10,544 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:10,640 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:10,642 INFO com.epam.pages.popup.StudentsPopup [main] Click on field bloodGroup and select value B-
+2022-10-18 11:32:10,963 INFO com.epam.pages.popup.StudentsPopup [main] Value of selected 'bloodGroup' field is -                             Blood Group
+                            A+
+                            A-
+                            B+
+                            B-
+                            O+
+                            O-
+                            AB+
+                            AB-
+                        
+2022-10-18 11:32:10,976 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:10,976 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:10,977 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:11,017 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:11,017 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:11,133 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:11,242 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:11,271 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:11,680 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:11,680 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:11,713 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:11,944 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:11,977 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:12,076 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:12,077 INFO com.epam.pages.popup.StudentsPopup [main] Click on field linkedParent and select value Naira Bogdanyan
+2022-10-18 11:32:12,433 INFO com.epam.pages.popup.StudentsPopup [main] Value of selected 'linkedParent' field is -                             Parent
+                            Naira Bogdanyan
+                        
+2022-10-18 11:32:12,446 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:12,447 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:12,448 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:12,476 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:12,478 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:12,584 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:12,691 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:12,717 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:13,115 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:13,116 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:13,148 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:13,390 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:13,419 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:13,520 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:13,520 INFO com.epam.pages.popup.StudentsPopup [main] Click on field gender and select value Female
+2022-10-18 11:32:13,842 INFO com.epam.pages.popup.StudentsPopup [main] Value of selected 'gender' field is -                             Gender
+                            Male
+                            Female
+                        
+2022-10-18 11:32:13,855 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:13,856 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:13,856 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:13,904 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:13,906 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:14,012 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:14,120 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:14,147 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:14,560 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:14,560 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:14,594 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:14,833 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:14,858 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:14,980 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:15,182 INFO com.epam.pages.popup.CreatePopup [main] Fill email 8dpddGG@gmail.com
+2022-10-18 11:32:15,331 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:15,435 INFO com.epam.pages.popup.StudentsPopup [main] Fill blood group, gender.
+2022-10-18 11:32:15,436 INFO com.epam.pages.popup.StudentsPopup [main] Fill address - Armenia, Shirak, Gyumri, Shirakatsi, 104
+2022-10-18 11:32:15,593 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:15,716 INFO com.epam.pages.popup.StudentsPopup [main] Fill birth day - 9/7/1996
+2022-10-18 11:32:15,716 INFO com.epam.pages.popup.StudentsPopup [main] User is able to select dates between interval 1900 and 3 years before moment of selectionselected year is - 1996
+2022-10-18 11:32:16,107 INFO com.epam.pages.popup.StudentsPopup [main] Click on field bloodGroup and select value B-
+2022-10-18 11:32:16,306 INFO com.epam.pages.popup.StudentsPopup [main] Click on field gender and select value Female
+2022-10-18 11:32:16,514 INFO com.epam.pages.popup.StudentsPopup [main] Check if 'linked class' and 'linked parent' fields are selected.
+2022-10-18 11:32:16,620 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:16,647 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:17,288 INFO com.epam.pages.main.AdminPage [main] Check new user is displayed
+2022-10-18 11:32:17,337 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Davit
+2022-10-18 11:32:17,374 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:32:17,394 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:17,395 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:17,395 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:17,421 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:17,421 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:17,539 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:17,633 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:17,655 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:18,041 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:18,041 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:18,076 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:18,269 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:18,295 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:18,386 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:18,581 INFO com.epam.pages.popup.CreatePopup [main] Fill email 4CY92JV@gmail.com
+2022-10-18 11:32:18,716 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:18,812 INFO com.epam.pages.popup.StudentsPopup [main] Fill blood group, gender.
+2022-10-18 11:32:18,812 INFO com.epam.pages.popup.StudentsPopup [main] Fill address - Armenia, Shirak, Gyumri, Shirakatsi, 104
+2022-10-18 11:32:18,971 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:19,083 INFO com.epam.pages.popup.StudentsPopup [main] Fill birth day - 9/7/1996
+2022-10-18 11:32:19,083 INFO com.epam.pages.popup.StudentsPopup [main] User is able to select dates between interval 1900 and 3 years before moment of selectionselected year is - 1996
+2022-10-18 11:32:19,439 INFO com.epam.pages.popup.StudentsPopup [main] Click on field bloodGroup and select value B-
+2022-10-18 11:32:19,619 INFO com.epam.pages.popup.StudentsPopup [main] Click on field gender and select value Female
+2022-10-18 11:32:19,829 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:19,963 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:19,987 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:20,821 INFO com.epam.helpers.DBHelper [main] Check password is encrypted
+2022-10-18 11:32:20,887 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:20,888 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:20,888 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:20,933 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:20,933 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:21,047 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:21,153 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:21,177 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:21,604 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:21,605 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:32:21,640 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:32:21,919 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:21,946 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:22,250 INFO com.epam.pages.popup.CreatePopup [main] Fill email nLCpBGJ@gmail.com
+2022-10-18 11:32:22,379 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:22,500 INFO com.epam.pages.popup.CreatePopup [main] Click on X button button
+2022-10-18 11:32:22,528 INFO com.epam.helpers.UiHelper [main] Click on × button
+2022-10-18 11:32:22,853 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:22,884 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:22,986 INFO com.epam.pages.popup.CreatePopup [main] Check fields name, surname, email, password are displayed in create popup
+2022-10-18 11:32:23,116 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:23,116 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:23,116 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:23,167 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:23,168 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:23,292 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:23,405 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:23,433 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:23,846 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:23,846 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:32:23,877 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:32:24,105 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:24,138 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:24,575 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:24,673 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:24,699 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:25,222 INFO com.epam.pages.popup.CreatePopup [main] Get error message of existed email
+2022-10-18 11:32:25,268 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:25,269 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:25,269 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:25,305 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:25,305 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:25,433 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:25,538 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:25,563 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:25,963 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:25,965 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:32:25,996 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:32:26,275 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:26,307 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:26,606 INFO com.epam.pages.popup.CreatePopup [main] Fill email 90di0uU@gmail.com
+2022-10-18 11:32:26,746 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:26,878 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:27,032 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:27,058 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:27,739 INFO com.epam.pages.popup.CreatePopup [main] Popup is closed
+2022-10-18 11:32:27,775 INFO com.epam.pages.main.AdminPage [main] Check new user is displayed
+2022-10-18 11:32:27,825 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Davit
+2022-10-18 11:32:27,870 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:32:27,888 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:27,889 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:27,889 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:27,938 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:27,938 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:28,050 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:28,147 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:28,171 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:28,593 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:28,594 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:32:28,626 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:32:28,940 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:28,972 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:29,124 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Davit
+2022-10-18 11:32:29,270 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:32:29,368 INFO com.epam.pages.popup.CreatePopup [main] Fill non-existed email 2TVoo2W@gmail.com
+2022-10-18 11:32:29,368 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:29,371 INFO com.epam.pages.popup.CreatePopup [main] Fill email 2TVoo2W@gmail.com
+2022-10-18 11:32:29,509 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:29,670 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:29,698 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:30,375 INFO com.epam.pages.main.AdminPage [main] Check new user is displayed
+2022-10-18 11:32:30,433 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Davit
+2022-10-18 11:32:30,479 INFO com.epam.pages.main.AdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:32:30,497 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:30,498 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:30,498 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:30,542 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:30,543 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:30,653 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:30,755 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:30,778 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:31,192 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:31,193 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:32:31,225 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:32:31,513 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:31,545 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:31,847 INFO com.epam.pages.popup.CreatePopup [main] Fill email eVLUeJ2@gmail.com
+2022-10-18 11:32:31,981 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:32,115 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:32,244 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:32,269 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:32,926 INFO com.epam.helpers.DBHelper [main] Check password is encrypted
+2022-10-18 11:32:32,946 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:32,946 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:32,947 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:32,983 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:32,983 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:33,105 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:33,205 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:33,230 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:33,815 INFO com.epam.pages.main.SuperAdminPage [main] Get role name - Super Admin
+2022-10-18 11:32:33,825 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:33,825 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:33,826 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:33,867 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:33,868 INFO com.epam.pages.main.LoginPage [main] Fill email wrongEmail
+2022-10-18 11:32:33,974 INFO com.epam.pages.main.LoginPage [main] Fill password wrongPassword
+2022-10-18 11:32:34,082 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:34,107 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:34,356 INFO com.epam.pages.main.LoginPage [main] Get error message - Incorrect email and/or password
+2022-10-18 11:32:34,369 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:34,369 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:34,370 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:34,396 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:34,396 INFO com.epam.pages.main.LoginPage [main] Fill email 
+2022-10-18 11:32:34,492 INFO com.epam.pages.main.LoginPage [main] Fill password wrongPassword
+2022-10-18 11:32:34,587 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:34,611 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:34,843 INFO com.epam.pages.main.LoginPage [main] Get error message - Incorrect email and/or password
+2022-10-18 11:32:34,853 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:34,854 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:34,854 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:34,878 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:34,879 INFO com.epam.pages.main.LoginPage [main] Fill email wrongEmail
+2022-10-18 11:32:34,980 INFO com.epam.pages.main.LoginPage [main] Fill password 
+2022-10-18 11:32:35,072 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:35,097 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:35,328 INFO com.epam.pages.main.LoginPage [main] Get error message - Incorrect email and/or password
+2022-10-18 11:32:35,338 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:35,339 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:35,339 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:35,365 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:35,366 INFO com.epam.pages.main.LoginPage [main] Fill email 
+2022-10-18 11:32:35,452 INFO com.epam.pages.main.LoginPage [main] Fill password 
+2022-10-18 11:32:35,537 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:35,558 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:35,806 INFO com.epam.pages.main.LoginPage [main] Get error message - Incorrect email and/or password
+2022-10-18 11:32:35,818 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:35,819 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:35,819 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:35,845 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:35,846 INFO com.epam.pages.main.LoginPage [main] Fill email 
+2022-10-18 11:32:35,946 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:36,053 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:36,079 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:36,332 INFO com.epam.pages.main.LoginPage [main] Get error message - Incorrect email and/or password
+2022-10-18 11:32:36,344 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:36,345 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:36,345 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:36,369 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:36,370 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:36,469 INFO com.epam.pages.main.LoginPage [main] Fill password 
+2022-10-18 11:32:36,562 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:36,586 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:37,044 INFO com.epam.pages.main.LoginPage [main] Get error message - Incorrect email and/or password
+2022-10-18 11:32:37,056 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:37,057 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:37,057 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:37,079 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:37,079 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:37,189 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:37,297 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:37,324 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:37,916 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:37,947 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:38,260 INFO com.epam.pages.popup.CreatePopup [main] Fill email Swubq41@gmail.com
+2022-10-18 11:32:38,403 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:38,575 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:38,599 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:39,261 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:39,293 INFO com.epam.pages.main.LoginPage [main] Fill last generated email Swubq41@gmail.com
+2022-10-18 11:32:39,403 INFO com.epam.pages.main.LoginPage [main] Fill last generated password 6nD$8aP%8nP%
+2022-10-18 11:32:39,503 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:39,524 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:39,919 INFO com.epam.pages.main.AdminPage [main] Get name and surname - Davit Balabekyan
+2022-10-18 11:32:39,932 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:39,932 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:39,933 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:39,972 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:39,973 INFO com.epam.pages.main.LoginPage [main] Check elements email, password, login button are displayed in login page
+2022-10-18 11:32:40,070 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:40,071 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:40,071 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:40,113 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:40,114 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:40,227 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:40,327 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:40,350 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:40,915 INFO com.epam.pages.main.SuperAdminPage [main] Check elements - list, role name, admins section, settings serction and create button are present
+2022-10-18 11:32:41,088 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:41,089 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:41,089 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:41,138 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:41,139 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:41,255 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:41,349 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:41,374 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:41,930 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:41,963 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:42,058 INFO com.epam.pages.popup.CreatePopup [main] Check fields name, surname, email, password, save button,generate password button, X button are displayed in create popup
+2022-10-18 11:32:42,283 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:42,283 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:42,284 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:42,332 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:42,333 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:42,444 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:42,554 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:42,580 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:42,997 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:42,998 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:32:43,038 INFO com.epam.helpers.UiHelper [main] Click on Teachers button
+2022-10-18 11:32:43,332 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:43,362 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:43,455 INFO com.epam.pages.popup.CreatePopup [main] Check fields name, surname, email, password, save button,generate password button, X button are displayed in create popup
+2022-10-18 11:32:43,655 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:43,655 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:43,655 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:43,701 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:43,702 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:43,811 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:43,922 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:43,947 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:44,321 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:44,322 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:44,356 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:44,614 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:44,614 INFO com.epam.pages.main.AdminPage [main] Check elements are displayed in students section - list, create button
+2022-10-18 11:32:44,685 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:44,686 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:44,686 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:44,734 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:44,736 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:44,862 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:44,972 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:44,996 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:45,395 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:45,397 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:45,426 INFO com.epam.helpers.UiHelper [main] Click on Students button
+2022-10-18 11:32:45,682 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:45,708 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:45,804 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:45,804 INFO com.epam.pages.popup.StudentsPopup [main] Check UI of create popup in students section
+2022-10-18 11:32:45,804 INFO com.epam.pages.popup.StudentsPopup [main] Check fields name, surname, email, password, save button,generate password button, X button are displayed in create popup
+2022-10-18 11:32:46,184 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:46,185 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:46,185 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:46,232 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:46,232 INFO com.epam.pages.main.LoginPage [main] Fill email heghine9696@gmail.com
+2022-10-18 11:32:46,351 INFO com.epam.pages.main.LoginPage [main] Fill password 2kB$8tU#1aO(
+2022-10-18 11:32:46,460 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:46,487 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:46,852 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:46,852 INFO com.epam.pages.main.AdminPage [main] Check elements: list, role name, name and surname, sections, settings and create button are present
+2022-10-18 11:32:46,853 INFO com.epam.pages.main.AdminPage [main] Get teachers section
+2022-10-18 11:32:46,863 INFO com.epam.pages.main.AdminPage [main] Get students section
+2022-10-18 11:32:46,873 INFO com.epam.pages.main.AdminPage [main] Get parents section
+2022-10-18 11:32:46,885 INFO com.epam.pages.main.AdminPage [main] Get classes section
+2022-10-18 11:32:46,898 INFO com.epam.pages.main.AdminPage [main] Get years section
+2022-10-18 11:32:46,909 INFO com.epam.pages.main.AdminPage [main] Get subjects section
+2022-10-18 11:32:46,922 INFO com.epam.pages.main.AdminPage [main] Get vacations section
+2022-10-18 11:32:47,220 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:47,221 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:47,221 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:47,253 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:47,253 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:47,361 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:47,451 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:47,475 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:48,031 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:48,061 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:48,360 INFO com.epam.pages.popup.CreatePopup [main] Fill email fIlY4XM@gmail.com
+2022-10-18 11:32:48,493 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:48,595 INFO com.epam.pages.popup.CreatePopup [main] Click on X button button
+2022-10-18 11:32:48,620 INFO com.epam.helpers.UiHelper [main] Click on × button
+2022-10-18 11:32:48,907 INFO com.epam.pages.popup.CreatePopup [main] Popup is closed
+2022-10-18 11:32:48,945 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:48,973 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:49,078 INFO com.epam.pages.popup.CreatePopup [main] Check fields name, surname, email, password are displayed in create popup
+2022-10-18 11:32:49,200 INFO com.epam.steps.super_admin.CreateAdminSteps [main] Check admin is not added in the DB
+2022-10-18 11:32:49,216 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:49,217 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:49,218 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:49,252 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:49,252 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:49,366 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:49,468 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:49,491 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:50,058 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:50,093 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:50,230 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:50,332 INFO com.epam.pages.popup.CreatePopup [main] Check password field is filled
+2022-10-18 11:32:50,363 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:50,364 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:50,364 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:50,405 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:50,405 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:50,529 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:50,630 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:50,658 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:51,202 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:51,235 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:51,371 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:51,502 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:32:51,582 INFO com.epam.pages.popup.CreatePopup [main] Check password is changed after generating a new password
+2022-10-18 11:32:51,598 INFO com.epam.pages.popup.CreatePopup [main] Check 'Generate password' button is active
+2022-10-18 11:32:51,627 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:51,628 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:51,629 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:51,680 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:51,680 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:51,785 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:51,893 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:51,918 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:52,484 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:52,514 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:52,620 INFO com.epam.pages.popup.CreatePopup [main] 50 symbols in name field are 1bqPjl0EXkTEWh9UB7KF7HK690HDSvDnfixyh2p0aCJIC4ifaOt
+2022-10-18 11:32:52,976 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:52,998 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:53,704 INFO com.epam.pages.popup.CreatePopup [main] Check error messages for inputting more than 50 symbols
+2022-10-18 11:32:53,781 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:53,781 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:53,781 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:53,823 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:53,824 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:53,941 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:54,037 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:54,060 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:54,623 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:54,653 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:54,749 INFO com.epam.pages.popup.CreatePopup [main] Fill email !!invalid@gmail.com
+2022-10-18 11:32:54,857 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:54,883 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:55,591 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:32:55,641 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:55,642 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:55,642 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:55,684 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:55,684 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:55,800 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:55,900 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:55,926 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:56,477 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:56,507 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:56,607 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid{@gmail.com
+2022-10-18 11:32:56,729 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:56,753 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:57,422 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:32:57,465 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:57,465 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:57,465 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:57,501 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:57,501 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:57,608 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:57,714 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:57,738 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:32:58,295 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:32:58,324 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:32:58,427 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalidgmail.com
+2022-10-18 11:32:58,548 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:32:58,576 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:32:59,302 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:32:59,348 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:59,348 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:59,348 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:32:59,377 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:32:59,377 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:32:59,471 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:32:59,565 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:32:59,586 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:00,188 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:00,221 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:00,320 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gmailcom
+2022-10-18 11:33:00,436 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:00,464 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:01,131 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:33:01,179 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:01,179 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:01,180 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:01,223 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:01,224 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:01,339 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:01,442 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:01,465 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:02,025 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:02,056 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:02,160 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gmail.c1om
+2022-10-18 11:33:02,278 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:02,302 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:02,981 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:33:03,022 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:03,022 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:03,023 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:03,064 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:03,065 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:03,181 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:03,281 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:03,304 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:03,860 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:03,891 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:03,994 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gmail.COM
+2022-10-18 11:33:04,114 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:04,139 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:04,812 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:33:04,856 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:04,856 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:04,857 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:04,890 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:04,890 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:04,995 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:05,103 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:05,123 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:05,679 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:05,707 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:05,800 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gmail-.com
+2022-10-18 11:33:05,906 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:05,931 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:06,641 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:33:06,685 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:06,686 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:06,686 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:06,716 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:06,717 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:06,826 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:06,928 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:06,953 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:07,496 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:07,526 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:07,626 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gm--ail.com
+2022-10-18 11:33:07,736 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:07,761 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:08,498 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:33:08,539 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:08,540 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:08,540 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:08,586 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:08,586 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:08,695 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:08,795 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:08,821 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:09,370 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:09,399 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:09,491 INFO com.epam.pages.popup.CreatePopup [main] Fill email invalid@gm.ail.com
+2022-10-18 11:33:09,601 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:09,626 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:10,169 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:33:10,209 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:10,209 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:10,210 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:10,241 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:10,242 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:10,379 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:10,506 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:10,533 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:11,157 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:11,190 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:11,295 INFO com.epam.pages.popup.CreatePopup [main] Fill email i@gmail.com
+2022-10-18 11:33:11,405 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:11,434 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:12,062 INFO com.epam.pages.popup.CreatePopup [main] Get error message of invalid inputted email
+2022-10-18 11:33:12,100 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:12,101 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:12,101 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:12,147 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:12,148 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:12,282 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:12,406 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:12,436 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:13,011 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:13,042 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:13,145 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:13,170 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:13,699 INFO com.epam.pages.popup.CreatePopup [main] Check error messages of blank input fields
+2022-10-18 11:33:13,788 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:13,789 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:13,789 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:13,828 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:13,829 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:13,947 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:14,059 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:14,086 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:14,669 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:14,701 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:14,836 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:33:14,928 INFO com.epam.pages.popup.CreatePopup [main] Check generated password structure
+2022-10-18 11:33:14,961 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:14,961 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:14,962 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:15,000 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:15,001 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:15,122 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:15,236 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:15,259 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:15,854 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:15,891 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:16,375 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:33:16,497 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:16,521 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:17,184 INFO com.epam.pages.popup.CreatePopup [main] Get error message of existed email
+2022-10-18 11:33:17,222 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:17,222 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:17,223 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:17,247 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:17,247 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:17,374 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:17,492 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:17,515 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:18,129 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:18,159 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:18,260 INFO com.epam.pages.popup.CreatePopup [main] Check the password field is readonly
+2022-10-18 11:33:18,305 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:18,305 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:18,306 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:18,357 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:18,358 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:18,481 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:18,599 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:18,624 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:19,226 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:19,257 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:19,581 INFO com.epam.pages.popup.CreatePopup [main] Fill email 9CezEb3@gmail.com
+2022-10-18 11:33:19,714 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:33:19,843 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:33:19,991 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:20,014 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:20,718 INFO com.epam.pages.popup.CreatePopup [main] Popup is closed
+2022-10-18 11:33:20,751 INFO com.epam.steps.super_admin.CreateAdminSteps [main] Check admin is added in the DB
+2022-10-18 11:33:20,756 INFO com.epam.pages.main.SuperAdminPage [main] Check admin is displayed on admins section
+2022-10-18 11:33:20,810 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Davit
+2022-10-18 11:33:20,857 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:33:20,869 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:20,870 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:20,870 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:20,910 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:20,911 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:21,049 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:21,186 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:21,217 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:21,838 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:21,870 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:22,030 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Davit
+2022-10-18 11:33:22,178 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:33:22,283 INFO com.epam.pages.popup.CreatePopup [main] Fill non-existed email WZLFTMT@gmail.com
+2022-10-18 11:33:22,284 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:22,287 INFO com.epam.pages.popup.CreatePopup [main] Fill email WZLFTMT@gmail.com
+2022-10-18 11:33:22,452 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:33:22,661 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:22,692 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:23,701 INFO com.epam.steps.super_admin.CreateAdminSteps [main] Check admin is added in the DB
+2022-10-18 11:33:23,705 INFO com.epam.pages.main.SuperAdminPage [main] Check admin is displayed on admins section
+2022-10-18 11:33:23,760 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Davit
+2022-10-18 11:33:23,808 INFO com.epam.pages.main.SuperAdminPage [main] Get name of last created user - Balabekyan
+2022-10-18 11:33:23,824 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:23,825 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:23,825 INFO com.epam.pages.main.LoginPage [main] Go to page - http://localhost:8082/login
+2022-10-18 11:33:23,867 INFO com.epam.jdbc.config.DBConnectionProvider [main] Create DB Connection
+2022-10-18 11:33:23,868 INFO com.epam.pages.main.LoginPage [main] Fill email super@gmail.com
+2022-10-18 11:33:23,983 INFO com.epam.pages.main.LoginPage [main] Fill password Sa1234567+
+2022-10-18 11:33:24,096 INFO com.epam.pages.main.LoginPage [main] Click on login button
+2022-10-18 11:33:24,122 INFO com.epam.helpers.UiHelper [main] Click on  button
+2022-10-18 11:33:24,720 INFO com.epam.pages.main.SuperAdminPage [main] Click on create button
+2022-10-18 11:33:24,750 INFO com.epam.helpers.UiHelper [main] Click on Create button
+2022-10-18 11:33:25,074 INFO com.epam.pages.popup.CreatePopup [main] Fill email toRZW5X@gmail.com
+2022-10-18 11:33:25,216 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:33:25,347 INFO com.epam.helpers.UiHelper [main] Click on Generate password button
+2022-10-18 11:33:25,479 INFO com.epam.pages.popup.CreatePopup [main] Click on save button
+2022-10-18 11:33:25,509 INFO com.epam.helpers.UiHelper [main] Click on Save button
+2022-10-18 11:33:26,440 INFO com.epam.helpers.DBHelper [main] Check password is encrypted
+2022-10-18 11:33:26,440 INFO com.epam.jdbc.service.UserServiceImpl [main] Find admin by email

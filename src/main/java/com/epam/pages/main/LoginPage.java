@@ -17,33 +17,40 @@ public class LoginPage extends BasePage {
     private WebElement errorMessage;
 
     public void fillEmail(String email) {
+        logger.info("Fill email {}", email);
         uiHelper.sendKeys(emailInput, email);
-        logger.info("Email was filled with {}", email);
     }
 
     public void fillPassword(String password) {
+        logger.info("Fill password {}", password);
         uiHelper.sendKeys(passwordInput, password);
-        logger.info("Password was filled with {}", password);
     }
 
     public void clickOnLoginButton() {
+        logger.info("Click on login button");
         uiHelper.clickOnWebElement(loginButton);
-        logger.info("Login button was clicked");
-    }
-
-    public void enterLastGeneratedPassword() {
-        uiHelper.sendKeys(passwordInput, SharedTestData.getLastGeneratedPassword());
     }
 
     public void enterLastGeneratedEmail() {
-        uiHelper.sendKeys(emailInput, SharedTestData.getLastGeneratedEmail());
+        String email = SharedTestData.getLastGeneratedEmail();
+        logger.info("Fill last generated email {}", email);
+        uiHelper.sendKeys(emailInput, email);
+    }
+
+    public void enterLastGeneratedPassword() {
+        String password = SharedTestData.getLastGeneratedPassword();
+        logger.info("Fill last generated password {}", password);
+        uiHelper.sendKeys(passwordInput, password);
     }
 
     public String getErrorMessage() {
-        return errorMessage.getText();
+        String errMessage = errorMessage.getText();
+        logger.info("Get error message - {}", errMessage);
+        return errMessage;
     }
 
     public boolean checkAllElementsArePresent() {
+        logger.info("Check elements email, password, login button are displayed in login page");
         return uiHelper.checkElementsAreDisplayed(emailInput, passwordInput, loginButton);
     }
 

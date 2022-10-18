@@ -17,12 +17,12 @@ public class PropertiesReader {
         }
     }
 
-    private InputStream getInputStream(String fileName) {
-        return PropertiesReader.class.getClassLoader().getResourceAsStream(fileName);
-    }
-
     public static PropertiesReader getInstance() {
         return new PropertiesReader("config.properties");
+    }
+
+    private InputStream getInputStream(String fileName) {
+        return PropertiesReader.class.getClassLoader().getResourceAsStream(fileName);
     }
 
     public String getProperty(String key) {

@@ -12,12 +12,11 @@ import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 
+import static com.epam.helpers.ErrorMessages.INCORRECT_LOGIN_OR_PASSWORD;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class LoginSteps extends BaseSteps {
-
     private LoginPage loginPage;
     private AdminPage adminPage;
     private SuperAdminPage superAdminPage;
@@ -26,6 +25,11 @@ public class LoginSteps extends BaseSteps {
     @BeforeAll
     public static void setupDriver() {
         setup();
+    }
+
+    @AfterAll
+    public static void tearDown() {
+        quitDriver();
     }
 
     @Before
@@ -37,12 +41,12 @@ public class LoginSteps extends BaseSteps {
         loginPage.goToPage();
     }
 
-    @Given("Enter email {} in login page")
+    @Given("Fill email {} in login page")
     public void fillEmailInLoginPage(String email) {
         loginPage.fillEmail(email);
     }
 
-    @And("Enter password {} in login page")
+    @And("Fill password {} in login page")
     public void fillPasswordInLoginPage(String password) {
         loginPage.fillPassword(password);
     }
@@ -54,24 +58,28 @@ public class LoginSteps extends BaseSteps {
 
     @Then("The user is on {} page")
     public void theUserIsOnRequestedPage(String roleName) {
-        assertThat(roleName).isEqualToIgnoringCase(superAdminPage.getRoleName());
+        assertThat(roleName)
+                .withFailMessage("The user is not on demanded page as role name is different from expected.")
+                .isEqualToIgnoringCase(superAdminPage.getRoleName());
     }
 
-    @When("Leave blank or incorrect {} and-or {} field")
-    public void leaveBlankOrIncorrectUsernameAndOrPasswordField(String email, String password) {
+    @Given("Fill {} and {} fields")
+    public void fillEmailAndPassword(String email, String password) {
         loginPage.fillEmail(email);
         loginPage.fillPassword(password);
     }
 
-    @Then("See error message")
-    public void seeErrorMessage() {
-       assertThat(loginPage.getErrorMessage()).isEqualTo("Incorrect email and/or password");
+    @Then("Check error message")
+    public void checkErrorMessage() {
+        assertThat(loginPage.getErrorMessage())
+                .withFailMessage("Error message for incorrect login/or password was different from expected one.")
+                .isEqualTo(INCORRECT_LOGIN_OR_PASSWORD.getErrorMessage());
     }
 
     @And("Fill in all required fields")
     public void fillInAllRequiredFields() {
-        createPopup.fillAllFields();
-        createPopup.doubleClickOnGeneratePasswordButton();
+        createPopup.fillNameSurnameEmail();
+        createPopup.clickOnGeneratePasswordButton();
     }
 
     @Then("Sign in as admin with generated password")
@@ -80,12 +88,15 @@ public class LoginSteps extends BaseSteps {
         loginPage.enterLastGeneratedEmail();
         loginPage.enterLastGeneratedPassword();
         loginPage.clickOnLoginButton();
-        assertThat(createPopup.passwordIsChanged()).isTrue();
-        assertThat(adminPage.getNameAndSurname()).contains(SharedTestData.getNameField());
+        assertThat(adminPage.getNameAndSurname())
+                .withFailMessage("Last created admin's name and surname is not equal to the signed in admin's name and surname.")
+                .contains(SharedTestData.getNameField(), SharedTestData.getSurnameField());
     }
 
-    @AfterAll
-    public static void tearDown() {
-        quitDriver();
+    @And("Save values from name, surname and email fields")
+    public void getAndSaveValuesFromRequiredFields() {
+        createPopup.saveEmailValue();
+        createPopup.savePasswordValue();
+        createPopup.saveNameAndSurnameValue();
     }
 }
