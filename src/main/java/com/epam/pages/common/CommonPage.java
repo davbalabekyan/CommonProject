@@ -15,50 +15,42 @@ public abstract class CommonPage extends BasePage {
     @FindBy(id = "show-btn")
     protected WebElement createButton;
     @FindBy(className = "list")
-    protected List<WebElement> list;
+    protected WebElement list;
     @FindBy(xpath = "//div[@class='list-items']/p")
     protected List<WebElement> listItems;
     @FindBy(linkText = "Settings")
     protected WebElement settingsSection;
 
     public String getRoleName() {
-        return roleName.getText();
-    }
-
-    public boolean checkRoleNameIsPresent() {
-        return roleName.isDisplayed();
+        String name = roleName.getText();
+        logger.info("Get role name - {}", name);
+        return name;
     }
 
     public String getNameAndSurname() {
-        return nameAndSurname.getText();
+        String surnameAndName = nameAndSurname.getText();
+        logger.info("Get name and surname - {}", surnameAndName);
+        return surnameAndName;
+    }
+
+    public String getNameOfLastCreatedUser() {
+        String nameOfLastCreatedUser = listItems.get(listItems.size() - 1).getText().split(" ")[0];
+        logger.info("Get name of last created user - {}", nameOfLastCreatedUser);
+        return nameOfLastCreatedUser;
+    }
+
+    public String getSurnameOfLastCreatedUser() {
+        String surnameOfLastCreatedUser = listItems.get(listItems.size() - 1).getText().split(" ")[1];
+        logger.info("Get name of last created user - {}", surnameOfLastCreatedUser);
+        return surnameOfLastCreatedUser;
     }
 
     public void clickOnCreateButton() {
+        logger.info("Click on create button");
         uiHelper.clickOnWebElement(createButton);
-        logger.info("Create button was clicked");
     }
 
     public boolean checkCreateButtonIsPresent() {
         return createButton.isDisplayed();
-    }
-
-    public String getNameOfLastCreatedUser() {
-        return listItems.get(listItems.size() - 1).getText().split(" ")[0];
-    }
-
-    public String getSurnameOfLastCreatedUser() {
-        return listItems.get(listItems.size() - 1).getText().split(" ")[1];
-    }
-
-    public boolean checkListIsEmpty() {
-        return list.size() == 1;
-    }
-
-    public boolean checkSettingsSectionIsPresent() {
-        return settingsSection.isDisplayed();
-    }
-
-    public void goToLoginPage() {
-        driver.get("http://localhost:8082/");
     }
 }

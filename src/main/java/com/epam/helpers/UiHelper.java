@@ -1,15 +1,18 @@
 package com.epam.helpers;
 
 import org.openqa.selenium.WebElement;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
-import java.util.List;
 
 public class UiHelper {
 
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     private final WaitHelper waitHelper = new WaitHelper();
 
     public void clickOnWebElement(final WebElement target) {
+        logger.info("Click on {} button", target.getText());
         waitHelper.waitElementToBeClickable(target);
         target.click();
     }
@@ -27,9 +30,7 @@ public class UiHelper {
         return Arrays.stream(elements).allMatch(element -> element.getText().isEmpty());
     }
 
-    public boolean checkElementsAreDisplayed(List<WebElement> list, WebElement... elements) {
-        return !list.isEmpty()
-                && list.stream().allMatch(WebElement::isDisplayed)
-                && Arrays.stream(elements).allMatch(WebElement::isDisplayed);
+    public boolean areElementsSelected(WebElement... elements) {
+        return Arrays.stream(elements).allMatch(WebElement::isSelected);
     }
 }
