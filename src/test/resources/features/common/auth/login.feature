@@ -4,16 +4,13 @@ Feature: Login as different users
 
   @TC1.7.2 @Regression @Smoke
   Scenario: Check super admin logs in successfully
-    Given Fill super@gmail.com and Sa1234567+ fields
-    And Click on 'login' button
+    Given Login as super admin
     Then The user is on super admin page
 
   @TC1.7.3 @TC1.7.4 @Regression
   Scenario Outline: Checking displayed error messages while using incorrect credentials during login
-    When Fill <email> and <password> fields
-    And Click on 'login' button
+    Given Fill <email> and <password> fields and click on 'Login' button
     Then Check error message
-
     Examples:
       | email           | password      |
       | wrongEmail      | wrongPassword |
@@ -25,10 +22,9 @@ Feature: Login as different users
 
   @TC1.7.6 @Regression
   Scenario: Check ability to login as an admin using last generated password after creating new admin
-    Given Fill super@gmail.com and Sa1234567+ fields
-    And Click on 'login' button
+    Given Login as super admin
     And Click on 'create' button and open popup
-    And Fill in all required fields
-    And Save values from name, surname and email fields
+    And Fill in name, surname, email fields and click on 'Generate password' button
+    And Save values from name, surname, password and email fields
     And Click on 'Save' button
     Then Sign in as admin with generated password

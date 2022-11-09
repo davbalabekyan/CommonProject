@@ -1,6 +1,5 @@
 package com.epam.pages.main;
 
-import com.epam.helpers.SharedTestData;
 import com.epam.pages.common.CommonPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,10 +18,5 @@ public class SuperAdminPage extends CommonPage {
                 settingsSection,
                 createButton
         );
-    }
-
-    public boolean checkNewAdminIsDisplayedOnAdminsSection() {
-        logger.info("Check admin is displayed on admins section");
-        return getNameOfLastCreatedUser().equals(SharedTestData.getNameField()) && getSurnameOfLastCreatedUser().equals(SharedTestData.getSurnameField());
     }
 }

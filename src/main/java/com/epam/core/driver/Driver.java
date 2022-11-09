@@ -6,7 +6,9 @@ import org.openqa.selenium.WebDriver;
 
 public class Driver {
 
-    private static final String browserName = PropertiesReader.getInstance().getProperty("browser");
+    private static final String browserName = PropertiesReader
+            .getInstance("config.properties")
+            .getProperty("browser");
 
     public static WebDriver getDriver() {
         return DriverFactory.getDriver(browserName);

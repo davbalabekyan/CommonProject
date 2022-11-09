@@ -18,6 +18,8 @@ public abstract class CommonPage extends BasePage {
     protected WebElement list;
     @FindBy(xpath = "//div[@class='list-items']/p")
     protected List<WebElement> listItems;
+    @FindBy(xpath = "//div[@class='list-items']/a")
+    protected List<WebElement> listItemsHref;
     @FindBy(linkText = "Settings")
     protected WebElement settingsSection;
 
@@ -41,16 +43,15 @@ public abstract class CommonPage extends BasePage {
 
     public String getSurnameOfLastCreatedUser() {
         String surnameOfLastCreatedUser = listItems.get(listItems.size() - 1).getText().split(" ")[1];
-        logger.info("Get name of last created user - {}", surnameOfLastCreatedUser);
+        logger.info("Get surname of last created user - {}", surnameOfLastCreatedUser);
         return surnameOfLastCreatedUser;
     }
 
-    public void clickOnCreateButton() {
-        logger.info("Click on create button");
-        uiHelper.clickOnWebElement(createButton);
+    public String getNameOfLastCreatedItem() {
+        return listItemsHref.get(listItemsHref.size() - 1).getText();
     }
 
-    public boolean checkCreateButtonIsPresent() {
-        return createButton.isDisplayed();
+    public void clickOnCreateButton() {
+        uiHelper.clickOnWebElement(createButton);
     }
 }

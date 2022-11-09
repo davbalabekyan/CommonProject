@@ -1,5 +1,6 @@
 package com.epam.jdbc.config;
 
+import com.epam.config.PropertiesReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,16 +11,14 @@ import java.sql.SQLException;
 public class DBConnectionProvider {
 
     private static final Logger logger = LoggerFactory.getLogger(DBConnectionProvider.class);
-    private static final String DB_URL = "jdbc:postgresql://localhost:5477/edumanagement";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "root";
-    private static final String DB_DRIVER = "org.postgresql.Driver";
+    private static final PropertiesReader propertiesReader = PropertiesReader
+            .getInstance("config.properties");
     private volatile static DBConnectionProvider instance;
     private static Connection connection;
 
     private DBConnectionProvider() {
         try {
-            Class.forName(DB_DRIVER);
+            Class.forName(propertiesReader.getProperty("DB_DRIVER"));
         } catch (ClassNotFoundException e) {
             logger.error("Driver class not found");
         }
@@ -37,10 +36,14 @@ public class DBConnectionProvider {
     }
 
     public Connection getConnection() {
-        logger.info("Create DB Connection");
         try {
             if (connection == null || connection.isClosed()) {
-                connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+                logger.info("Create DB Connection");
+                connection = DriverManager.getConnection(
+                        propertiesReader.getProperty("DB_URL"),
+                        propertiesReader.getProperty("DB_USER"),
+                        propertiesReader.getProperty("DB_PASSWORD")
+                );
             }
         } catch (SQLException e) {
             logger.error("Can not connect to DB");

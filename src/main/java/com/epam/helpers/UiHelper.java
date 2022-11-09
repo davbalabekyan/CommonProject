@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 
-public class UiHelper {
+public final class UiHelper {
 
-    private final Logger logger = LoggerFactory.getLogger(this.getClass());
+    private final Logger logger = LoggerFactory.getLogger(UiHelper.class);
     private final WaitHelper waitHelper = new WaitHelper();
 
     public void clickOnWebElement(final WebElement target) {
